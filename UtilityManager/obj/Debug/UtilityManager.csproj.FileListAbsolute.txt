@@ -1,0 +1,15 @@
+F:\src\rego\UtilityManager\bin\Debug\UtilityManager.dll
+F:\src\rego\UtilityManager\bin\Debug\UtilityManager.pdb
+F:\src\rego\UtilityManager\obj\Debug\UtilityManager.csprojResolveAssemblyReference.cache
+F:\src\rego\UtilityManager\obj\Debug\UtilityManager.dll
+F:\src\rego\UtilityManager\obj\Debug\UtilityManager.pdb
+C:\Users\josh\Documents\GitHub\atkeeper\UtilityManager\bin\Debug\UtilityManager.dll
+C:\Users\josh\Documents\GitHub\atkeeper\UtilityManager\bin\Debug\UtilityManager.pdb
+C:\Users\josh\Documents\GitHub\atkeeper\UtilityManager\obj\Debug\UtilityManager.csprojResolveAssemblyReference.cache
+C:\Users\josh\Documents\GitHub\atkeeper\UtilityManager\obj\Debug\UtilityManager.dll
+C:\Users\josh\Documents\GitHub\atkeeper\UtilityManager\obj\Debug\UtilityManager.pdb
+C:\Users\josh\Documents\GitHub\GasStation\UtilityManager\bin\Debug\UtilityManager.dll
+C:\Users\josh\Documents\GitHub\GasStation\UtilityManager\bin\Debug\UtilityManager.pdb
+C:\Users\josh\Documents\GitHub\GasStation\UtilityManager\obj\Debug\UtilityManager.csprojResolveAssemblyReference.cache
+C:\Users\josh\Documents\GitHub\GasStation\UtilityManager\obj\Debug\UtilityManager.dll
+C:\Users\josh\Documents\GitHub\GasStation\UtilityManager\obj\Debug\UtilityManager.pdb

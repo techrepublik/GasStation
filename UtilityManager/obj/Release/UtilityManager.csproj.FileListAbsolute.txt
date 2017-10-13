@@ -1,0 +1,5 @@
+C:\Users\josh\Documents\GitHub\atkeeper\UtilityManager\bin\Release\UtilityManager.dll
+C:\Users\josh\Documents\GitHub\atkeeper\UtilityManager\bin\Release\UtilityManager.pdb
+C:\Users\josh\Documents\GitHub\atkeeper\UtilityManager\obj\Release\UtilityManager.csprojResolveAssemblyReference.cache
+C:\Users\josh\Documents\GitHub\atkeeper\UtilityManager\obj\Release\UtilityManager.dll
+C:\Users\josh\Documents\GitHub\atkeeper\UtilityManager\obj\Release\UtilityManager.pdb
