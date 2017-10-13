@@ -241,5 +241,79 @@ namespace GasStation
             if (customerBindingSource?.Current == null) return;
             LoadTransactionHistory(((Customer)customerBindingSource.Current).CustomerId);
         }
+        //======DeleteBtn===//
+        private void metroButton2_Click(object sender, EventArgs e)
+        {
+            DeleteCustomer();
+        }
+        private void DeleteCustomer()
+        {
+            if (customerBindingSource == null) return;
+            Validate();
+            var dResult = MessageBox.Show(@"Are you sure you want to Delete Customer Record?", @"Delete", MessageBoxButtons.YesNo,
+                MessageBoxIcon.Exclamation, MessageBoxDefaultButton.Button1);
+            if ((CustomerManager.Delete(((Customer)customerBindingSource.Current).CustomerId)))
+            {
+                MessageBox.Show(@"Customer is Deleted successfully..", @"Delete", MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
+                customerBindingSource.RemoveCurrent();
+            }
+            else
+            {
+                MessageBox.Show(@"Error occured in Deleting Customers Record..",@"Error", MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
+            }
+        }
+        //==DeleteTransaction==//
+        private void metroButton11_Click(object sender, EventArgs e)
+        {
+            DeleteTransaction();
+        }
+        private void DeleteTransaction()
+        {
+            if (transactionBindingSource == null) return;
+            Validate();
+            var dResult = MessageBox.Show(@"Are you sure you want to Delete Transaction?", @"Delete", MessageBoxButtons.YesNo,
+                MessageBoxIcon.Exclamation,MessageBoxDefaultButton.Button1);
+            if ((TransactionManager.Delete(((Transaction)transactionBindingSource.Current).TransactionId)))
+            {
+                MessageBox.Show(@"Transaction is Deleted sucessfully.", @"Delete", MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
+                transactionBindingSource.RemoveCurrent();
+            }
+            else
+            {
+                MessageBox.Show(@"Error occured in Deleting Transaction Record..", @"Error", MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
+            }
+        }
+        //== DeleteEmployee===//
+        private void metroButton7_Click(object sender, EventArgs e)
+        {
+            DeleteEmployee();
+        }
+        private void DeleteEmployee()
+        {
+            if (employeeBindingSource == null) return;
+            Validate();
+            var dResult = MessageBox.Show(@"Are you sure you want to Delete Employee?", @"Delete", MessageBoxButtons.YesNo,
+                MessageBoxIcon.Exclamation,MessageBoxDefaultButton.Button1);
+            if ((EmployeeManager.Delete(((Employee)employeeBindingSource.Current).EmployeeId)))
+            {
+                MessageBox.Show(@"Employee is Deleted successfully", @"Delete", MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
+                employeeBindingSource.RemoveCurrent();
+            }
+            else
+            {
+                MessageBox.Show(@"Error is occured in Deleting Employee..",@"Error", MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
+            }
+        }
+
+        private void metroButton13_Click(object sender, EventArgs e)
+        {
+            fuelDataBindingSource.AddNew();
+        }
     }
 }
